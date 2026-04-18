@@ -1,8 +1,21 @@
-# Ignore Virtual Environment
+# Virtual environments
 venv/
 .venv/
 env/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Data (download separately from Kaggle)
+data/
+
+# Auto-generated charts
+src/pics/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
 .DS_Store
 .vscode/
